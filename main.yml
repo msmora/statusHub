@@ -10,11 +10,4 @@
 
     - debug: msg="{{result}}"
 
-    - debug: msg="running"
-      when: result.state is not defined or result.name is not defined
-      
-    - name: Check if the service exists
-      raw: cmd /c sc query Traditum.Hub.WinService
-      register: result2
-
-    - debug: msg="{{result2}}"      
+     
