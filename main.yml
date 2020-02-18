@@ -1,7 +1,7 @@
 - name: Playbook para reiniciar Hub
   hosts: all
   tasks:
-       - name: check services
+    - name: check services
       win_service:
           name: Traditum.Hub.WinService
       register: result
