@@ -1,4 +1,4 @@
-- name: Playbook para reiniciar Hub
+- name: Playbook para Chequear Status Hub
   hosts: all
   tasks:
     - name: check services
