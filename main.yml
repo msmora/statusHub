@@ -8,6 +8,6 @@
       failed_when: result is not defined
       #ignore_errors: yes
 
-    - debug: msg="{{result}}"
+    - debug: msg="{{result.state}}"
 
      
